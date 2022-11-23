@@ -1,0 +1,22 @@
+(use-modules (guix utils)
+             (guix packages)
+             (guix download)
+             (guix build-system python)
+             (gnu packages qt)
+             (gnu packages xml)
+             (gnu packages time)
+             (gnu packages llvm)
+             (gnu packages linux)
+             (gnu packages check)
+             (gnu packages sphinx)
+             (gnu packages libusb)
+             (gnu packages python)
+             (gnu packages python-web)
+             (gnu packages python-xyz)
+             (gnu packages python-check)
+             (gnu packages python-build)
+             ((guix licenses) #:prefix license:))
+
+(list python
+      python-pyserial
+      python-evdev)
